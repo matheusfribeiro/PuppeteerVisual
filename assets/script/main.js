@@ -1,1 +1,0 @@
-alert('test for echo')
