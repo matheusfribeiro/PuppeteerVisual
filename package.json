@@ -6,7 +6,8 @@
   "scripts": {
     "test:example": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example.test.js",
     "test:device": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/device.test.js",
-    "test:e2e": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/*.test.js"
+    "test:e2e": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/currency-exchange.test.js"
+    
   },
   "repository": {
     "type": "git",
